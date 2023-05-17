@@ -1,0 +1,58 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px; 
+    background-color: #1f2937;
+    color: #F9FAF8;
+}
+
+ul{
+    display: flex;
+    gap: 25px;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.information{
+    height: 450px;
+}
+
+.container-quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+}
+
+.quote{
+    width:400px;
+    height: 100px;
+    text-align: center;
+}
+
+.quote-author{
+    display: block;
+    text-align: right;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    height: 80px;
+    color: white;
+}
